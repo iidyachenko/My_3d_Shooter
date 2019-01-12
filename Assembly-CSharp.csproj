@@ -179,6 +179,7 @@
     <Compile Include="Assets\Scripts\Controller\FlashlightController.cs" />
     <Compile Include="Assets\Scripts\Controller\InputController.cs" />
     <Compile Include="Assets\Scripts\Controller\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Controller\TeammatesController.cs" />
     <Compile Include="Assets\Scripts\Controller\WeaponsController.cs" />
     <Compile Include="Assets\Scripts\Enemy\Box.cs" />
     <Compile Include="Assets\Scripts\Enemy\Burrel.cs" />
@@ -190,12 +191,14 @@
     <Compile Include="Assets\Scripts\Models\Boom.cs" />
     <Compile Include="Assets\Scripts\Models\FlashLightModel.cs" />
     <Compile Include="Assets\Scripts\Models\PlayerModel.cs" />
+    <Compile Include="Assets\Scripts\Models\TeammateModel.cs" />
     <Compile Include="Assets\Scripts\Views\FlashlightView.cs" />
     <Compile Include="Assets\Scripts\Views\ReloadView.cs" />
     <Compile Include="Assets\Scripts\Weapons\BaseWeapon.cs" />
     <Compile Include="Assets\Scripts\Weapons\InstantWeapon.cs" />
     <Compile Include="Assets\Scripts\Weapons\MultiBurrieldFire.cs" />
     <Compile Include="Assets\Scripts\Weapons\SingleBurrieldFire.cs" />
+    <Compile Include="Assets\TeammateView.cs" />
     <None Include="Assets\LoadAssets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\LoadAssets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
     <None Include="Assets\LoadAssets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
