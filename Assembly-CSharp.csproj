@@ -61,6 +61,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\KY_effects\Script\ConGUI.cs" />
+    <Compile Include="Assets\KY_effects\Script\Lighting.cs" />
     <Compile Include="Assets\LoadAssets\Pistol\SciFiHandGun\Scripts\OrbitAroundTarget.cs" />
     <Compile Include="Assets\LoadAssets\PyroParticles\Prefab\Script\FireBaseScript.cs" />
     <Compile Include="Assets\LoadAssets\PyroParticles\Prefab\Script\FireCollisionForwardScript.cs" />
@@ -172,10 +174,12 @@
     <Compile Include="Assets\LoadAssets\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
     <Compile Include="Assets\LoadAssets\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
     <Compile Include="Assets\LoadAssets\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
+    <Compile Include="Assets\MineModel.cs" />
     <Compile Include="Assets\Scripts\Ammo\BaseAmmo.cs" />
     <Compile Include="Assets\Scripts\Ammo\Bullet.cs" />
     <Compile Include="Assets\Scripts\Ammo\InstantBullet.cs" />
     <Compile Include="Assets\Scripts\Controller\BaseController.cs" />
+    <Compile Include="Assets\Scripts\Controller\EnemyBotsController.cs" />
     <Compile Include="Assets\Scripts\Controller\FlashlightController.cs" />
     <Compile Include="Assets\Scripts\Controller\InputController.cs" />
     <Compile Include="Assets\Scripts\Controller\PlayerController.cs" />
@@ -183,22 +187,26 @@
     <Compile Include="Assets\Scripts\Controller\WeaponsController.cs" />
     <Compile Include="Assets\Scripts\Enemy\Box.cs" />
     <Compile Include="Assets\Scripts\Enemy\Burrel.cs" />
-    <Compile Include="Assets\Scripts\Enemy\Main.cs" />
     <Compile Include="Assets\Scripts\Enemy\Turret\Turret.cs" />
     <Compile Include="Assets\Scripts\Enemy\Turret\Turret_main.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IDamageable.cs" />
+    <Compile Include="Assets\Scripts\Main.cs" />
     <Compile Include="Assets\Scripts\Models\BaseSceneObject.cs" />
     <Compile Include="Assets\Scripts\Models\Boom.cs" />
+    <Compile Include="Assets\Scripts\Models\BotSpawner.cs" />
+    <Compile Include="Assets\Scripts\Models\EnemyBot.cs" />
     <Compile Include="Assets\Scripts\Models\FlashLightModel.cs" />
     <Compile Include="Assets\Scripts\Models\PlayerModel.cs" />
     <Compile Include="Assets\Scripts\Models\TeammateModel.cs" />
+    <Compile Include="Assets\Scripts\Models\Waypoint.cs" />
     <Compile Include="Assets\Scripts\Views\FlashlightView.cs" />
     <Compile Include="Assets\Scripts\Views\ReloadView.cs" />
+    <Compile Include="Assets\Scripts\Views\TeammateView.cs" />
     <Compile Include="Assets\Scripts\Weapons\BaseWeapon.cs" />
     <Compile Include="Assets\Scripts\Weapons\InstantWeapon.cs" />
+    <Compile Include="Assets\Scripts\Weapons\MeleWeapon.cs" />
     <Compile Include="Assets\Scripts\Weapons\MultiBurrieldFire.cs" />
     <Compile Include="Assets\Scripts\Weapons\SingleBurrieldFire.cs" />
-    <Compile Include="Assets\TeammateView.cs" />
     <None Include="Assets\LoadAssets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\LoadAssets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
     <None Include="Assets\LoadAssets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
@@ -217,6 +225,7 @@
     <None Include="Assets\LoadAssets\Standard Assets\Environment\Water\DO_NOT_WORK_IN_VR.txt" />
     <None Include="Assets\LoadAssets\Turret\Shaders\AlphaTest_Complete.shader" />
     <None Include="Assets\LoadAssets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+    <None Include="Assets\KY_effects\MagicEffectsPackFree\ReadMe.txt" />
     <None Include="Assets\LoadAssets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
     <None Include="Assets\LoadAssets\Standard Assets\Fonts\OpenSans\License!.txt" />
     <None Include="Assets\LoadAssets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />

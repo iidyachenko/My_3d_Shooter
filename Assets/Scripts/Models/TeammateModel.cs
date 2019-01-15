@@ -10,12 +10,13 @@ namespace FPS
     {
         private NavMeshAgent agend;
         private ThirdPersonCharacter character;
+        private Queue<NavMeshHit> destinations;
 
         void Start()
         {
             agend = GetComponent<NavMeshAgent>();
             character = GetComponent<ThirdPersonCharacter>();
-
+            destinations = new Queue<NavMeshHit>();
             agend.updateRotation = false;
             agend.updateRotation = true;
         }
@@ -24,21 +25,28 @@ namespace FPS
         {
             if (agend.remainingDistance > agend.stoppingDistance)
                 character.Move(agend.desiredVelocity, false, false);
-            else
-                character.Move(Vector3.zero, false, false);
+            else if (destinations.Count > 0)
+                SetDestination(destinations.Dequeue());
+            else character.Move(Vector3.zero, false, false);
         }
 
-        public void SetDestination(Vector3 pos)
-        {
+        public void AddDestination(Vector3 pos)
+        {                       
             NavMeshHit hit;
-            if(NavMesh.SamplePosition(pos,out hit,20f,-1))
+            if (NavMesh.SamplePosition(pos, out hit, 20f, -1))
             {
-                agend.SetDestination(hit.position);
+                destinations.Enqueue(hit);
+                Debug.Log(destinations.Count);
             }
             else
             {
                 Debug.Log("Wrong position");
             }
+        }
+
+        public void SetDestination(NavMeshHit hit)
+        {
+                agend.SetDestination(hit.position);
         }
     }
 }

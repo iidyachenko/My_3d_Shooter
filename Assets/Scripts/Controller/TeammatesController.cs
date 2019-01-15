@@ -20,7 +20,7 @@ namespace FPS
             {
                 var teammate = hit.collider.GetComponent<TeammateModel>();
                 if (teammate) SelectTeammate(teammate);
-                else if (currentTeammate) currentTeammate.SetDestination(hit.point);
+                else if (currentTeammate) currentTeammate.AddDestination(hit.point);
             }
         }
 
