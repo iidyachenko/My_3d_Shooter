@@ -63,6 +63,11 @@
   <ItemGroup>
     <Compile Include="Assets\KY_effects\Script\ConGUI.cs" />
     <Compile Include="Assets\KY_effects\Script\Lighting.cs" />
+    <Compile Include="Assets\Lesson5-6\DisposeObject.cs" />
+    <Compile Include="Assets\Lesson5-6\LabirintGenerate.cs" />
+    <Compile Include="Assets\Lesson5-6\MyScript.cs" />
+    <Compile Include="Assets\Lesson5-6\SerializableGameObject.cs" />
+    <Compile Include="Assets\Lesson5-6\XMLSerializator.cs" />
     <Compile Include="Assets\LoadAssets\Pistol\SciFiHandGun\Scripts\OrbitAroundTarget.cs" />
     <Compile Include="Assets\LoadAssets\PyroParticles\Prefab\Script\FireBaseScript.cs" />
     <Compile Include="Assets\LoadAssets\PyroParticles\Prefab\Script\FireCollisionForwardScript.cs" />
@@ -174,7 +179,6 @@
     <Compile Include="Assets\LoadAssets\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
     <Compile Include="Assets\LoadAssets\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
     <Compile Include="Assets\LoadAssets\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
-    <Compile Include="Assets\MineModel.cs" />
     <Compile Include="Assets\Scripts\Ammo\BaseAmmo.cs" />
     <Compile Include="Assets\Scripts\Ammo\Bullet.cs" />
     <Compile Include="Assets\Scripts\Ammo\InstantBullet.cs" />
@@ -196,6 +200,7 @@
     <Compile Include="Assets\Scripts\Models\BotSpawner.cs" />
     <Compile Include="Assets\Scripts\Models\EnemyBot.cs" />
     <Compile Include="Assets\Scripts\Models\FlashLightModel.cs" />
+    <Compile Include="Assets\Scripts\Models\MineModel.cs" />
     <Compile Include="Assets\Scripts\Models\PlayerModel.cs" />
     <Compile Include="Assets\Scripts\Models\TeammateModel.cs" />
     <Compile Include="Assets\Scripts\Models\Waypoint.cs" />
@@ -235,6 +240,7 @@
     <None Include="Assets\LoadAssets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
     <None Include="Assets\LoadAssets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
     <None Include="Assets\LoadAssets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\LevelData2.xml" />
     <None Include="Assets\LoadAssets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
     <None Include="Assets\LoadAssets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
     <None Include="Assets\LoadAssets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
