@@ -240,7 +240,6 @@
     <None Include="Assets\LoadAssets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
     <None Include="Assets\LoadAssets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
     <None Include="Assets\LoadAssets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
-    <None Include="Assets\LevelData2.xml" />
     <None Include="Assets\LoadAssets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
     <None Include="Assets\LoadAssets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
     <None Include="Assets\LoadAssets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
