@@ -31,6 +31,10 @@ namespace FPS
             //Перезарядка по клавише 'R'
             if (Input.GetButtonDown("Reload"))
                 Main.Instance.WeaponsController.Reload();
+
+            //Управление напарниками
+            if (Input.GetButtonDown("TeammateCommand"))
+                Main.Instance.TeammatesController.MoveCommand();
         }
     }
 }
